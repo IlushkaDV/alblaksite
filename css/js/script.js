@@ -15,3 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 100);
     });
 });
+document.getElementById('headerTitle').addEventListener('click', function() {
+    var audio = document.getElementById('myAudio');
+    audio.play();
+});

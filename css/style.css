@@ -16,14 +16,14 @@ body, html {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.5); /* Добавляем прозрачный черный цвет поверх фона */
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Растягиваем хедер на всю ширину */
-    text-align: left; /* Выравниваем текст слева */
+    width: 100%;
+    text-align: left;
     font-family: 'Wide latin', sans-serif;
 }
 
@@ -35,39 +35,39 @@ main {
 }
 
 h2 {
-    text-align: center; /* Центрируем текст */
-    font-size: 28px; /* Устанавливаем базовый размер шрифта */
+    text-align: center;
+    font-size: 28px;
     line-height: 1.5;
-    font-family: Bookman Old Style; /* Межстрочный интервал */
+    font-family: Bookman Old Style;
 }
 
 .green {
-    color: rgb(28,172,86); /* Зеленый цвет */
-    font-size: 52px; /* Увеличиваем размер шрифта для первых двух строк */
+    color: rgb(28,172,86);
+    font-size: 52px;
 }
 
 .white {
-    color: white; /* Белый цвет */
+    color: white;
 }
 
 .red {
-    color: rgb(225,47,49); /* Красный цвет */
+    color: rgb(225,47,49);
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.3); /* Уменьшаем прозрачность для тоньше футера */
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
     text-align: center;
-    width: 100%; /* Растягиваем футер на всю ширину */
-    padding: 5px 0; /* Уменьшаем верхний и нижний отступы */
-    margin-top: auto; /* Выравниваем футер внизу страницы */    
+    width: 100%;
+    padding: 5px 0;
+    margin-top: auto;
 }
 
 blockquote {
-    font-family: 'Gabriola', sans-serif; /* Используем шрифт Gabriola для цитаты */
-    text-align: center; /* Выравниваем текст по центру */
-    margin: 0; /* Убираем отступы */
-    color: white; /* Цвет текста */
+    font-family: 'Gabriola', sans-serif;
+    text-align: center;
+    margin: 0;
+    color: white;
 }
 
 a {
@@ -79,8 +79,8 @@ a {
 .bee {
     display: block;
     position: fixed;
-    top: 65%; /* Center vertically */
-    left: 147%; /* Start off-screen right */
+    top: 65%;
+    left: 147%;
     transform: translate(0%, -90%);
 }
 
@@ -89,6 +89,6 @@ p {
 }
 
 @keyframes fly {
-    from { left: 147%; } /* Start from off-screen right */
-    to { left: -100%; } /* Move to off-screen left */
+    from { left: 147%; }
+    to { left: -100%; }
 }
