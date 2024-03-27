@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('https://i.ibb.co/wcwpWhQ/e00f9d6ceb2fa64b2c7ffc19090404c2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Добавляем прозрачный черный цвет поверх фона */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Растягиваем хедер на всю ширину */
+    text-align: left; /* Выравниваем текст слева */
+    font-family: 'Wide latin', sans-serif;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center; /* Центрируем текст */
+    font-size: 28px; /* Устанавливаем базовый размер шрифта */
+    line-height: 1.5;
+    font-family: Bookman Old Style; /* Межстрочный интервал */
+}
+
+.green {
+    color: rgb(28,172,86); /* Зеленый цвет */
+    font-size: 52px; /* Увеличиваем размер шрифта для первых двух строк */
+}
+
+.white {
+    color: white; /* Белый цвет */
+}
+
+.red {
+    color: rgb(225,47,49); /* Красный цвет */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3); /* Уменьшаем прозрачность для тоньше футера */
+    color: white;
+    text-align: center;
+    width: 100%; /* Растягиваем футер на всю ширину */
+    padding: 5px 0; /* Уменьшаем верхний и нижний отступы */
+    margin-top: auto; /* Выравниваем футер внизу страницы */    
+}
+
+blockquote {
+    font-family: 'Gabriola', sans-serif; /* Используем шрифт Gabriola для цитаты */
+    text-align: center; /* Выравниваем текст по центру */
+    margin: 0; /* Убираем отступы */
+    color: white; /* Цвет текста */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.bee {
+    display: block;
+    position: fixed;
+    top: 65%; /* Center vertically */
+    left: 147%; /* Start off-screen right */
+    transform: translate(0%, -90%);
+}
+
+p {
+    cursor: pointer;
+}
+
+@keyframes fly {
+    from { left: 147%; } /* Start from off-screen right */
+    to { left: -100%; } /* Move to off-screen left */
+}
