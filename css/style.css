@@ -92,3 +92,28 @@ p {
     from { left: 147%; }
     to { left: -100%; }
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .green {
+        font-size: 36px;
+    }
+
+    .bee {
+        display: none;
+    }
+
+    @keyframes fly {
+        from { left: 147%; }
+        to { left: -147%; }
+    }
+    
+}
