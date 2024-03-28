@@ -44,6 +44,7 @@ h2 {
 .green {
     color: rgb(28,172,86);
     font-size: 52px;
+    border: 2px solid;
 }
 
 .white {
@@ -93,6 +94,54 @@ p {
     to { left: -100%; }
 }
 
+.home-sci {
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    align-items: center;
+}
+.home-sci a:hover {
+    background-color: transparent; /* Сброс цвета фона */
+}
+
+.home-sci a:nth-child(1):hover {
+    background-color: rgb(28,172,86); /* Заливка зеленым при наведении на первую ссылку */
+}
+
+.home-sci a:nth-child(2):hover {
+    background-color: white;
+    color: black; /* Заливка белым при наведении на вторую ссылку */
+}
+
+.home-sci a:nth-child(3):hover {
+    background-color: rgb(225,47,49); /* Заливка красным при наведении на третью ссылку */
+}
+
+
 @media only screen and (max-width: 600px) {
     header {
         flex-direction: column;
@@ -109,11 +158,6 @@ p {
 
     .bee {
         display: none;
-    }
-
-    @keyframes fly {
-        from { left: 147%; }
-        to { left: -147%; }
     }
     
 }
