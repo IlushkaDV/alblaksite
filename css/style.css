@@ -44,7 +44,6 @@ h2 {
 .green {
     color: rgb(28,172,86);
     font-size: 52px;
-    border: 2px solid;
 }
 
 .white {
@@ -125,20 +124,20 @@ p {
     align-items: center;
 }
 .home-sci a:hover {
-    background-color: transparent; /* Сброс цвета фона */
+    background-color: transparent; 
 }
 
 .home-sci a:nth-child(1):hover {
-    background-color: rgb(28,172,86); /* Заливка зеленым при наведении на первую ссылку */
+    background-color: rgb(28,172,86); 
 }
 
 .home-sci a:nth-child(2):hover {
     background-color: white;
-    color: black; /* Заливка белым при наведении на вторую ссылку */
+    color: black;
 }
 
 .home-sci a:nth-child(3):hover {
-    background-color: rgb(225,47,49); /* Заливка красным при наведении на третью ссылку */
+    background-color: rgb(225,47,49);
 }
 
 
