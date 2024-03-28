@@ -95,7 +95,7 @@ p {
 
 .home-sci {
     position: fixed;
-    bottom: 60px;
+    bottom: 75px;
     left: 50%;
     transform: translateX(-50%);
     width: 170px;
